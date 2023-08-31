@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal websites</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header" id="home">
+        <nav>
+            <a href="index.html"><img src="LOGO.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <Li><a href="#home">HOME</a></Li>
+                    <Li><a href="#service">SERVICES</a></Li>
+                    <Li><a href="#">CONTACT</a></Li>
+                    <Li><a href="#">ABOUT</a></Li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+
+        <div class="text-box">
+            <h1>Hi, I'm <span>sudip koyong</span></h1>
+            <p>My code doesn’t always work, but when it does I don’t know why
+
+            </p>
+            <a href="" class="hero-btn">Meet me To know  more</a>
+
+
+        </div>
+
+    </section>
+    <section class="services" id="service">
+        <h1>My services</h1>
+        <P> Do you want any favour</P>
+        <div class="row">
+            <div class="services-col">
+                <h3>Graphic design</h3>
+                <P>Graphic design is a profession, academic discipline and applied art whose activity consists in projecting visual communications intended to transmit specific messages to social groups, with specific objectives. Graphic design is an interdisciplinary branch of design and of the fine arts.</P>
+            </div>
+            <div class="services-col">
+                <h3>web develop</h3>
+                <P>Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; user interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization</P>
+            </div>
+            <div class="services-col">
+                <h3>c/c++ Tutor</h3>
+                <P>A tutor is someone who gives private instruction: tutors teach one-on-one. If you ever helped someone learn something, you could say you tutored them. "Tutor" is also the title of someone who works with students one-on-one. There are writing tutors, music tutors, math tutors, and history tutors.</P>
+            <!-- <div class="services-col"> -->
+            </div>
+               <!-- <h3>Microsoft package Tutor</h3> -->
+                <!-- <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum illo perferendis laborum repudiandae assumenda. Dolore ex quibusdam illo nostrum beatae amet aut doloribus est! Minima delectus nulla doloremque suscipit ab?</P> -->
+            <!-- </div> -->
+        </div>
+
+    </section>
+
+    <sectioN class="work">
+    
+        <div class="row">
+            <div class="work-col">
+                <img src="graphic.jpg">
+                <div class="layer">
+                    <h3> Graphic design</h3>
+                </div>
+            </div>
+
+            <div class="work-col">
+                <img src="web develop.jpg">
+                <div class="layer">
+                    <h3>Web develop</h3>
+                </div>
+            </div>
+
+            <div class="work-col">
+                <img src="tutor (1).jpg">
+                <div class="layer">
+                    <h3> c/c++ Tutor</h3>
+                </div>
+            </div>
+        </div>
+
+    </sectioN>
+    <section class="cta">
+        <h1> If you are interested in any services by me than <br>you can easily contact with me</h1>
+        <a href="" class="hero-btn"> CONTACT ME</a>
+
+
+    </section>
+
+
+    <section class="footer">
+        <h4> About me</h4>
+        <p>Let me introduce myself, my name is sudip koyong. And I'm a student.<br>
+            My profession is web and apps developer. I will create a website for you for your requirment.
+            I also make logo and i'm still work on ILLustrator.
+        </p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>        
+        </div>
+        <p> made by sudip</p>
+
+
+    </section>
+
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
